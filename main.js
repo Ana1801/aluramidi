@@ -1,1 +1,1 @@
-console.log('teste')
+alert('alerta vindo do arquivo js');
