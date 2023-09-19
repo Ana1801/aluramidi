@@ -1,1 +1,1 @@
-alert('alerta vindo do arquivo js');
+document.querySelector('#som_tecla_pom').play();
