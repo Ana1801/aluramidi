@@ -2,4 +2,6 @@ function tocaSompom(){
 document.querySelector('#som_tecla_pom').play();
 }
 
-document.querySelector('.tecla_pom').onclick = tocaSompom;
+const listaDeBotoes = document.querySelectorAll('.tecla');
+
+listaDeBotoes[0].onclick = tocaSompom;
